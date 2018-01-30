@@ -1,0 +1,13 @@
+.btn{
+  border: solid 1px #dddddd;
+  width:100px;
+  height:100px;
+  float:left;
+  cursor:pointer;
+  margin-left: 5px;
+}
+.main{
+  width:1920px;
+  height:1080px;
+  text-align: center;
+}
