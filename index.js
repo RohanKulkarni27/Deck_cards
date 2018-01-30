@@ -21,9 +21,10 @@ function shuffle(){
 }
 
 function deal(){
-  shuffle();
+
   var ctr = deck.length;
   if(ctr>0){
+    shuffle();
     // Choosing a random card from the shuffled pack
     var new_index =  Math.floor(Math.random() * ctr);
     var getitem = deck[new_index];
